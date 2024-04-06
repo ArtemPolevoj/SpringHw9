@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: issue-service
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/spring_hw9
+    username: artem
+    password: 1385
+  jpa:
+    show-sql: true
+    properties:
+      hibernate:
+        ddl-auto: update
+        dialect: org.hibernate.dialect.MySQL8Dialect
+server:
+  port: 8280
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka
+application:
+  issue:
+    max-allowed-books: 4
