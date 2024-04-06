@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: discover-service
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/spring_hw9
+    username: artem
+    password: 1385
+  jpa:
+    show-sql: true
+    properties:
+      hibernate:
+        ddl-auto: update
+        dialect: org.hibernate.dialect.MySQL8Dialect
+server:
+  port: 8761
+eureka:
+  client:
+    register-with-eureka: false
