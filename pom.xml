@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>spring</groupId>
-	<artifactId>hw9</artifactId>
+	<artifactId>hw11</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
-    <name>hw9</name>
+    <name>hw11</name>
 	<description>Demo project for Spring Boot</description>
     <modules>
         <module>book-service</module>
